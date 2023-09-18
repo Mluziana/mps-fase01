@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+
+
+}
+.icone{
+    width: 100px;
+}
+#imagem-fundo{
+    background: url("imagens/fundo.jpg");
+    height:800px;
+    text-align: center;
+}
+#titulo{
+    padding-top: 20%;
+    color:#ffffff
+   
+}
+#subtitulo{
+    padding-left: 20%;
+    padding-right: 20%;
+    color:#ffffff
+    
+}
+#acao{
+    color:#ffffff;
+    border: 1px #ffffff solid;
+    padding: 10px 20px 10px 20px;
+}
+#visaogeral{
+    background-color: #effaf8;
+    padding: 20px;
+}
+#ia-texto{
+    padding: 20px;  
+}
+#ia-imagens{
+    padding: 20px;
+}
+#ia-narracao{
+    padding: 20px;
+}
