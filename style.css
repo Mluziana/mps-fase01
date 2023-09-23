@@ -1,15 +1,62 @@
-html, body{
+body,html{
     margin: 0;
-
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #b84435;
+    color: #ffffff;
+    height:90px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    margin-top: -20px;
+    
+}
+footer{
+    height: 100px;
+    background-color: #b84435;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
 
 }
-.icone{
-    width: 100px;
+#logo{
+    width:70px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
 }
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+}
+li{
+    float: left;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+li:hover{
+    background-color:#eca04c;
+    color: #b84435;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#logo:hover{
+    transform: scale(1.2);
+}
+
 #imagem-fundo{
     background: url("imagens/fundo.jpg");
-    height:800px;
+    height:100%;
     text-align: center;
+    background-size: cover;
 }
 #titulo{
     padding-top: 20%;
@@ -27,16 +74,58 @@ html, body{
     border: 1px #ffffff solid;
     padding: 10px 20px 10px 20px;
 }
-#visaogeral{
-    background-color: #effaf8;
-    padding: 20px;
+.destaque{
+    background-color: hsla(31, 56%, 91%, 0.589);
+
 }
-#ia-texto{
-    padding: 20px;  
+
+.col01{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    text-align: justify;
+    margin: 10px 0px 10px;
+    
 }
-#ia-imagens{
-    padding: 20px;
+.justificado{
+    text-align: justify;
 }
-#ia-narracao{
-    padding: 20px;
+.centralizado{
+    text-align: center;
+   padding-top: 2%;
+   
 }
+.col04{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+       
+}
+.icone{
+    width: 100px;
+    padding-left: 20%;
+    margin-top: 30px;
+    
+}
+.col03{
+    float: left;
+    padding: 0 1%;
+    position: relative;
+    width:30%;
+    text-align: center;
+    margin: 10px;
+}
+.img-proj{
+    width:80%;
+}
+#sobre{
+    float: left;
+    padding: 10%;
+}
+.img-sobre{
+    width: 20%;
+    padding: 5%;
+}
+
